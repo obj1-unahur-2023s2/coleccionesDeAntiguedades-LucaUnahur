@@ -36,10 +36,11 @@ object casaDeAntiguedades {
 	}
 	
 	
-	/*method repararSiEstaEnMalEstado(antiguedad) {
-			antiguedad.enMalEstado()==true
-			antiguedad.renovar()
-	}*/ //preguntar
+	method repararSiEstaEnMalEstado(antiguedad) {
+			if(antiguedad.enMalEstado()){
+				antiguedad.renovar()
+			}
+	}
 method venderTodo() {
 		antiguedades.clear()
 	}

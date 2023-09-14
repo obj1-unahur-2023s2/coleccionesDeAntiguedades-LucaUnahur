@@ -1,5 +1,5 @@
 object florero {
-	var enMalEstado = true
+	var enMalEstado = false
 	
 	method antiguedad() = 34
 	method enMalEstado() = enMalEstado

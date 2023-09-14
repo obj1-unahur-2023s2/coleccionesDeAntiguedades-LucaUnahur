@@ -1,0 +1,6 @@
+import antiguedades.*
+test "el florero esta en buen estado" {
+
+	assert.that(florero.enMalEstado())
+
+}
